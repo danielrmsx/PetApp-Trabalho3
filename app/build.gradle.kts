@@ -57,5 +57,8 @@ dependencies {
     implementation(libs.androidx.room.runtime)
     implementation(libs.androidx.room.ktx)
     ksp(libs.androidx.room.compiler)
+    // Trabalho 4 (MVVM): viewModel(factory = ...) e collectAsStateWithLifecycle()
+    implementation(libs.androidx.lifecycle.viewmodel.compose)
+    implementation(libs.androidx.lifecycle.runtime.compose)
     implementation("io.coil-kt:coil-compose:2.5.0")
 }
